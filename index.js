@@ -9,9 +9,5 @@ module.exports = function(port) {
   server.use(restify.queryParser());
   server.use(restify.bodyParser());
 
-  server.listen(port, function () {});
-
-  this.get = server.get;
-  this.post = server.post;
   return server;
 }
