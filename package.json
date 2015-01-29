@@ -1,10 +1,11 @@
 {
   "name": "shortrest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Drop the boilerplate for simple REST servers",
   "main": "index.js",
   "author": "Jason Livesay",
   "license": "ISC",
+  "keywords": [ "REST", "simple", "boilerplate", "restify" ],
   "dependencies": {
     "restify": "^2.8.5"
   }
