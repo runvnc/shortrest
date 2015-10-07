@@ -4,13 +4,21 @@
   "description": "Drop the boilerplate for simple REST servers",
   "main": "index.js",
   "repository": {
-    "type" : "git",
-    "url" : "http://github.com/runvnc/shortrest.git"
+    "type": "git",
+    "url": "http://github.com/runvnc/shortrest.git"
   },
   "author": "Jason Livesay",
   "license": "ISC",
-  "keywords": [ "REST", "simple", "boilerplate", "restify" ],
+  "keywords": [
+    "REST",
+    "simple",
+    "boilerplate",
+    "restify",
+    "jwt"
+  ],
   "dependencies": {
-    "restify": "^2.8.5"
+    "g": "^2.0.0",
+    "restify": "^2.8.5",
+    "restify-jwt": "^0.2.0"
   }
 }

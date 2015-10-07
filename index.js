@@ -1,4 +1,5 @@
 var restify = require('restify');
+require('g')('restify-jwt');
 
 module.exports = function(port) {
   var self = this;
