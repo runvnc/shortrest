@@ -1,7 +1,9 @@
 var restify = require('restify');
-require('g')('restify-jwt');
+var jwt = require('restify-jwt');
+global['jwt'] = jwt;
 
 module.exports = function(port) {
+  global['jwt'] = jwt;
   var self = this;
   self.server = restify.createServer({
       name: 'shortrest',
@@ -13,5 +15,6 @@ module.exports = function(port) {
   self.get = self.server.get.bind(self.server);
   self.post = self.server.post.bind(self.server);
   self.server.listen(port);
+  self.jwt = jwt;
   return self;
 }
