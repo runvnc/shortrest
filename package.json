@@ -1,6 +1,6 @@
 {
   "name": "shortrest",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Drop the boilerplate for simple REST servers",
   "main": "index.js",
   "repository": {
