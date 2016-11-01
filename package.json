@@ -17,8 +17,8 @@
     "jwt"
   ],
   "dependencies": {
-    "g": "^2.0.0",
     "restify": "4.2.0",
-    "restify-jwt": "0.4.0"
-  }
+    "restify-jwt": "0.4.0",
+    "g": "^2.0.0"
+ }
 }
