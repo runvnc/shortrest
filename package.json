@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "g": "^2.0.0",
-    "restify": "runvnc/restify",
+    "restify": "runvnc/node-restify",
     "restify-jwt": "^0.4.0"
   }
 }
